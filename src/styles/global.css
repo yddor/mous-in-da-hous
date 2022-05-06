@@ -8,11 +8,12 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
     @apply overflow-x-hidden;
+    @apply scroll-smooth;
   }
 
   body {
+    @apply overflow-x-hidden;
     @apply bg-black;
     @apply text-white;
     @apply p-3;
