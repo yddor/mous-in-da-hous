@@ -2,14 +2,14 @@ import React from "react";
 import Section from "../Section";
 import Header from "./Header";
 
-import teamMember1 from "../../images/team_member_1.png";
-import teamMember2 from "../../images/team_member_2.png";
-import teamMember3 from "../../images/team_member_3.png";
-import teamMember4 from "../../images/team_member_4.png";
-import teamMember5 from "../../images/team_member_5.png";
-import teamMember6 from "../../images/team_member_6.png";
-import teamMember7 from "../../images/team_member_7.png";
-import teamMember8 from "../../images/team_member_8.png";
+import teamMember1 from "../../images/team_member_1.jpg";
+import teamMember2 from "../../images/team_member_2.jpg";
+import teamMember3 from "../../images/team_member_3.jpg";
+import teamMember4 from "../../images/team_member_4.jpg";
+import teamMember5 from "../../images/team_member_5.jpg";
+import teamMember6 from "../../images/team_member_6.jpg";
+import teamMember7 from "../../images/team_member_7.jpg";
+import teamMember8 from "../../images/team_member_8.jpg";
 
 import kingCrown from "../../images/king_crown.png";
 import handgun from "../../images/handgun.png";
@@ -21,9 +21,9 @@ const teamMembers = [
   { name: "SB", role: "collab manager", img: teamMember3 },
   { name: "BADAR", role: "draws mousss", img: teamMember4 },
   { name: "LIPTON", role: "silent dev", img: teamMember5 },
-  { name: "???", role: "?", img: teamMember6 },
-  { name: "???", role: "?", img: teamMember7 },
-  { name: "???", role: "?", img: teamMember8 },
+  { name: "Roddy", role: "website guy", img: teamMember6 },
+  { name: "Razah", role: "mod", img: teamMember7 },
+  { name: "Po", role: "mod", img: teamMember8 },
 ];
 
 const TeamSection = () => {

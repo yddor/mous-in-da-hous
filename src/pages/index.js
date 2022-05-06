@@ -2,25 +2,17 @@ import * as React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 
-import grayScribblesLeft from "../images/gray_scribbles_left.png";
-import grayScribblesRight from "../images/gray_scribbles_right.png";
-
-import grayScribbles from "../images/gray_scribbles.png";
-
-import merchandise from "../images/merchandise.jpg";
-import paperBox from "../images/paper_box.png";
-import mutation from "../images/mutation.jpg";
-
 import Section from "../components/Section";
 
 import RoadmapSection from "../components/RoadmapSection";
 import MerchSection from "../components/MerchSection";
 import TeamSection from "../components/TeamSection";
 
-import merchandiseSectionTitle from "../images/merchandise_section_title.svg";
+import grayScribblesLeft from "../images/gray_scribbles_left.png";
+import grayScribblesRight from "../images/gray_scribbles_right.png";
 
-import stakingSectionTitle from "../images/staking_section_title.png";
-
+import mutation from "../images/mutation.jpg";
+import mutationSectionTitle from "../images/mutation_section_title.png";
 import mutationSectionScribbles from "../images/mutation_section_scribbles.png";
 
 const IndexPage = () => {
@@ -63,7 +55,7 @@ const IndexPage = () => {
         <div className="container mx-auto">
           <img
             className="w-full lg:w-3/4 xl:w-1/2 h-auto mb-8"
-            src={stakingSectionTitle}
+            src={mutationSectionTitle}
           />
           <div className="relative">
             <img className="w-full" src={mutation} />
