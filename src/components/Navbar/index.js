@@ -3,7 +3,7 @@ import logo from "../../images/logo.svg";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import { Menu, Transition } from "@headlessui/react";
 
-import { TwitterIcon, DiscordIcon, MagicEdenIcon } from "./Icons";
+import { TwitterIcon, DiscordIcon, MagicEdenIcon, OpenSeaIcon } from "./Icons";
 
 const externalLinks = [
   {
@@ -11,12 +11,16 @@ const externalLinks = [
     icon: TwitterIcon,
   },
   {
-    href: "https://discord.com/",
+    href: "https://discord.gg/mousindahous",
     icon: DiscordIcon,
   },
   {
-    href: "https://magiceden.io/drops/midh",
+    href: "https://magiceden.io/marketplace/midh",
     icon: MagicEdenIcon,
+  },
+  {
+    href: "https://opensea.io/collection/mous-in-da-hous",
+    icon: OpenSeaIcon,
   },
 ];
 
@@ -26,12 +30,7 @@ const anchors = [
   { name: "Mutation", section: "mutation" },
   { name: "Team", section: "team" },
 ];
-{
-  /* <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
-          <rect width="32" height="3" y="9" />
-          <rect width="32" height="3" y="20" />
-        </svg> */
-}
+
 const Navbar = () => {
   return (
     <div className="absolute m-auto top-0 left-0 right-0 container mx-auto flex justify-between">
