@@ -35,7 +35,11 @@ const TeamSection = () => {
           {teamMembers.map((member, i) => (
             <div className="p-4 bg-pink-100" key={i}>
               <div className="pb-full relative">
-                <img className="absolute inset-0" src={member.img} alt="" />
+                <img
+                  className="absolute inset-0 w-full"
+                  src={member.img}
+                  alt=""
+                />
                 {member.name === "CRIZZY" && (
                   <img
                     className="absolute w-3/4 -left-1/2 -top-1/4"
