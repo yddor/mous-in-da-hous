@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../images/logo.svg";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import { Menu, Transition } from "@headlessui/react";
+import { Menu } from "@headlessui/react";
 
 import { TwitterIcon, DiscordIcon, MagicEdenIcon, OpenSeaIcon } from "./Icons";
 
