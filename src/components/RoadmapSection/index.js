@@ -47,8 +47,7 @@ const RoadmapSection = () => {
               $44th will lead you the way into the Subway! With a wide utility,
               MOUS can spend all their earnings at 1 place: The Underground
               dealer market.
-              <br />
-              15 $44th a day for staking one MOUS on our custom platform.
+              <br />8 $44th a day for staking one MOUS on our custom platform.
             </p>
           </div>
           <div className="bg-slate-300">
@@ -69,7 +68,7 @@ const RoadmapSection = () => {
               POTIONS AT UDM
             </h2>
             <p className="text-xl leading-none p-2">
-              4 months have passed by since 4444 MOUS got released. There's a
+              2 months have passed by since 4444 MOUS got released. There's a
               rumor that potions are available for purchase at the UDM. They
               turn the MOUS into something different, they look sooo cracked and
               dead. WTF is happening?
