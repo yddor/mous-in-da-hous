@@ -24,7 +24,7 @@
 	});
 </script>
 
-<nav class="mx-4 py-6">
+<nav class="mx-4 mt-6">
 	<div
 		class="container mx-auto flex flex-col text-center font-sans sm:flex-row sm:justify-end sm:text-left"
 	>
@@ -35,7 +35,7 @@
 				href="https://twitter.com/MousInDaHous"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="flex h-6 items-center hover:text-gray-300"
+				class="flex h-10 w-10 items-center justify-center hover:text-gray-300"
 			>
 				<svg fill="currentColor" viewBox="0 0 16 16" class="h-6">
 					<path
@@ -47,7 +47,7 @@
 				href="https://discord.com/invite/mousindahous"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="flex h-6 items-center hover:text-gray-300"
+				class="flex h-10 w-10 items-center justify-center hover:text-gray-300"
 			>
 				<svg fill="currentColor" viewBox="0 0 16 16" class="h-6">
 					<path
@@ -59,14 +59,14 @@
 				href="https://magiceden.io/marketplace/midh"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="flex h-6 items-center rounded-full bg-yellow-400 px-4 font-bold text-black hover:bg-yellow-600"
+				class="flex h-10 items-center rounded-full bg-yellow-400 px-6 font-bold text-black hover:bg-yellow-500"
 				>Buy a MIDH</a
 			>
 		</div>
 	</div>
 </nav>
 
-<div class="my-24">
+<div class="my-8">
 	<div class="flex h-[400px] justify-center overflow-x-hidden" bind:this={nextParticleWrapper} />
 	<div class="container mx-auto text-center text-3xl font-bold">
 		<p>The train is arriving shortly!</p>
